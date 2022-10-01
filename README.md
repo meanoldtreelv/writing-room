@@ -33,7 +33,7 @@ guide.html
   timeline.html
     this document contains a reading timeline of story events. note that it is chronological from the readers perspective, not the characters. 
   
-  script.html
+  script.md
     this document contains the actual prose in its most raw format. no chapter deliniation or editing.
   
   /scenes/$SCENE.html
@@ -47,3 +47,7 @@ reddit.md
   
 royalroad.md
   contains royal road specific authors notes and announcements.
+
+
+##embedding markdown in html
+https://www.makeuseof.com/md-block-render-markdown-web-page/
