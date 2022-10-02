@@ -40,7 +40,7 @@ guide.html
     this folder contains vignette scenes that will take place during the story but are not ordered chronologically
 
   /chapters/#.html
-    this folder contains numbered chapters ready to be released onto sharing platforms (royalroad, reddit, literotica, etc)
+    this folder contains numbered chapters ready to be released onto sharing platforms (royalroad, reddit, literotica, etc), each platform should be tagged after the chapter number to allow for changes to formatting requirements. 
 
 reddit.md
   contains header/footer snippets with reddit navigation, as well as a linked reddit chapterlist 
