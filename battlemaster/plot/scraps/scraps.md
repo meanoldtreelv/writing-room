@@ -35,7 +35,11 @@ Not all of these will work
 ## Equipment Gatcha
 This is one of the main revolving points in the story. PT gains a limited amount of {currency} that can be used in exchange for different possessed items. 
 
+## Leveling isnt a thing
 
+its not that the characters dont level up, its that the leveling is built on a pure log scale.
+
+sq
 
 # Currency
 
