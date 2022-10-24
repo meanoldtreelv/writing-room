@@ -73,9 +73,68 @@ Soul is an attribute that is hard to codify.Many believe that it is the essence 
     
 ### JOBS
 
-everyone is born with a job assigned to them, it's usually something along the lines of "Commoner", or if they happen to have peerage, the station they are born into "Noble", "Count", "Dutchess", etc. these jobs provide some of the most basic active skills a person needs to exist.
+everyone is born with a job assigned to them, it's usually something along the lines of "Commoner", or if they happen to have peerage, the station they are born into "Noble" or similar. These jobs provide some of the most basic active skills a person needs to exist such as *basic cooking*, *basic mending*, etc. 
 
-By performing tasks and taking actions favored by a. in certain professions one can unlock the corresponding job. equipping that job allows you to gain new skills.
+By performing tasks and taking actions favored by certain professions one can unlock the corresponding job. Without intervention the job with the hughest level is the one that is equipped. Certain classes have the ability to change others jobs, however onve changed gaining a level in a higher leveled job will cause it to equip. 
+
+as an example: a level 5 bandit has unloced the merchannt class at level 1, they have heir job changed to merchant and proceed to act the part, raising Merchant to level 4. on the road between towns they happen across some unsuspecting folks and old tendancues rear their head. by robbing the people on he road our merchant gains a level in bandit, changing their primary job and losing all their merchant skills. 
+
+a perosns currently equipped job is also inportant, as when inspected by the *identify* skill only the active job is shown, effectively hiding a pwesons past unless they consent to a more in-depth search. 
+
+### Class Division
+
+Class division is sectored by the role the class falls into. the known roles are:
+
+- melee combat
+  - warrior
+  - knight
+  - pugilist
+  - soldier
+  - red mage
+  - 
+- ranged attacker
+  - archer
+  - black mage
+  - green mage 
+  - elementalist 
+  -
+- battle support
+  - grey mage
+  - white mage 
+  - yellow mage
+  - spiritualist 
+  - 
+- auxiliary support
+  - blue mage
+  - Merchant
+  - 
+- ecclesial
+  - Paladin
+  - Cleric
+  - Preist
+  - Bishop
+  - Shaman
+  - 
+
+
+### Mage Colors
+
+the different colors of mage denite the casters speciality.
+  - Red Mage
+    - uses a melee weapon as their focus to battle cast from close distance to the enemy. 
+  - Blue Mage
+    - spatial magic specialists who are able to twist space and time. normally used in logistics instead of on the battlefield
+  - Green Mage
+    - green mages work with the magic in the air around us. they are notable in veing able to get the ambient flora and fauna to bend to their will.
+  - Yellow Mage 
+    - while green mages work with magic in nature, yellow works with the magic inside living things.they are not ally used yo enhance their teammate's natural sttength or agility, while sapping those of their opponent. 
+  - Black Mage
+    - the true evolution of the elementalist. able to draw the five base elements into existence and bend them to their will.
+  - white mage
+     - white mage works directly with the body amd soul to heal the wounds of the sick and dying, as well as turn and destroy those that rise from death.
+  - grey mage
+     - also known as a necromancer, this mage raises up those whome have succoned to death to do their bidding, but also works with he living to handle the greif of death.
+
 
 ### SOCIETY
 
