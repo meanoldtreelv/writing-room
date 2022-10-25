@@ -165,6 +165,42 @@ To recap: Duchies make up the countries provinces, and are divided into counties
 
 ### Slavery
 
+Slavery plays a big part in this world. 
+
+#### Becoming A Slave
+The second most common way someone becomes a slave is because they were unable to cover their debts. The most common way is to have a parent who failed to do so. Once someone is branded as a slave they are legally considered property, and anything they create is owned by thier master, including any children they produce. A third common way to become a slave is as punishment for a crime, this type of slave cannot be freed and is under a very strict brand. 
+
+#### Freeing A Slave
+Some sensabilities object to slavery on principal and wish to set slaves free. There are legal methods to do so as outlined by the Guild of Indenturement. 
+
+If the person to be freed was made a slave due to debt, those debts must be cleared, a fee paid to the guild for administrative processing, and the costs to have the brand broken. The fees and costs are generally around the amount of money earned by a peasant in a decade, thus restricting freedom to the wealthy and noble classes. 
+
+If the person was born a slave the process is significantly more arduous. The administrative fees and ritual costs are the same, however upon being granted freedom the former slave does not have any form of nationality, and must proceed through the proper channels to be granted citizenship of their country of residence. Some countries make this process easy, some near impossible. 
+
+#### Brands
+
+There are several types of slave brands that can be placed upon a slave. While binding they can be changed to a different type by the salves master through the guild. 
+
+Slave brand types: 
+- mandatum - command - The Mandatum brand allows the slave to act with near free will, however it will force them to obey specific direct orders. This brand is only seldom used as it gives near complete autonomy to a slave. 
+- potestas - control - The Potestas brand is the most common household slave brand. Once given an order the slave is compelled to complete the task as instructed, if the task was nonspecific they are allowed to use some judgement in its completion. This brand also provides a minor form of compulsion making the slave more docile. Disobeying an order will result in a mental pain stimulation. 
+- obsequium - obediance - the Obsequim brand is usually given to unruly or criminal slaves. It removes the ability to use thier own judgement in executing an order and must follow instructions as given. This brand will also activate and provide an extra dose of compulsion to obey should the slaves emotions become elevated. Disobeying an order will result in a breif debilitating physical pain stimulation. 
+- mancupium - thrall - The Mancupium brand is one of the strongest brand forms. It effectively removes free will from the slave, punishing them severely with mental and physical pain if they attempt to disobey. Rather than mental compulsion, this brand activates a severe Physical and mental pain response any time the slave tries to circumvent or disobey a direct or implied order. This response is several orders of magnitude stronger and longer than other brands. These slaves are quickly turned into mindless machines from the constant mental exhaustion and pain. 
+
+In addition to the brand on the slave, a slave master also recieves a brand. Though this brand is normally significantly smaller and is usually hidden. The Master brand acts as an anchor point for the slave brand enchantment to be anchored to. There are two basic types of Master brand, Transitory and Familial. 
+
+The Familial brand is preferred by noble houses, as it allows a slave to be transferred between Masters with the same brand. On the death of the current master any slaves that have been bound will transfer to the nearest familial brand holder. When aquired slaves are registered to the family as a whole instead of an individual
+
+Transitory brands restrict the ownership of a slave to a particular master, and require that the Guild be involved to move the slave from one master to another. On the death of the master the slaves bond will transfer to a specified individual at the guild, who will transfer the slave to an appointed individual, or compensate the decesased's estate after selling the slave. 
+
+#### Control
+
+There are several ways to control slaves, the most common being the brand as detailed above. Additionally an enchanted item known as the Slave Collar is avalible from the guild. This collar can be placed on anyone who is not branded as a slave or master to grant the same effects as the Obsequim brand. The slave colllar has a leash and bracelet that must be affixed to someone's wrist at all times for the control to be active. 
+
+When giving orders to a slave it is important to be direct, provide all the nessacary details, and ensure the order is achievable. 
+
+
+
 </md-block>
 </div>
 </body>
