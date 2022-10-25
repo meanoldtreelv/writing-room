@@ -163,6 +163,7 @@ A Baronet is not considered a Peer, but they are a member of Nobility. Baronets 
 ```
 To recap: Duchies make up the countries provinces, and are divided into counties for administrative purposes. Counties contain Baronies who act as an extra layer of administration. Baronies can contain Baronets to keep adding layers on, but they are not peers. Viscounts are between Counts/Marquis and Barons, but don't control any land.  
 
+### Slavery
 
 </md-block>
 </div>
