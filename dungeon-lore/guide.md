@@ -32,6 +32,16 @@ This story builds upon the idea outlined in the **_Battlemaster_** project with 
 
 Dungeons are caused by a curse, a story left unfinished. This is similar to the way a haunting or poltergeist is thought to occur, instead of an incorporeal instance forming a physical location. Within that location are monsters, bosses, traps, and treasures. However dying in the dungeon causes the soul to be consumed, never being able to be revived. The story of the dungeon seeks to come to a close. by helping the dungeon entities finish their story the curse can be completed. a completed dungeon grants blessings to those who finished the story.
 
+## Tech note
+this story is going to be crafted using the KoboldAI ML neural network then rewritten by the Ritr NN into readable prose.  
+
+the KoboldAI NN should produce a fanfic quality story in terms of writing complexity and readability. it will need to be directed at the paragraph level to steer the story. 
+
+once a chapter has been generated it will be imported to RITR and rewritten for tone tense añd p3rspect8ve 
+
+## Fleshing out the world 
+prior to writing the main novel a series of vingettes will be created based on appropriate writing prompts.  the charactwrs and events that appear in the vingettes may or may not appear in the final story.  
+
 ### Some key concepts in this world:
 
 - resurrection is easy, if you can afford it
@@ -42,7 +52,8 @@ Dungeons are caused by a curse, a story left unfinished. This is similar to the 
 - some people treat slaves as "involuntary family memebers"
 - humans are the minority.
 - dwarves are lolis.(stealing this)
-- dungeons create life
+- dungeons create life?
+- humans are a ruliñg class and not common amonst the pesant races. 
 
 ## SOME SCRIBBLED NOTES:
 ----
