@@ -1,53 +1,56 @@
-# writing-room
-this repo is to serve as a brainstorming and project dump for fiction projects. codebase is going to be mixed html and markdown.
+# Novel Planning Vault
 
-index.html is to serve as a jumping off point that will serve links inward to each project.
+**Purpose:** A *ruthlessly organized* system for drafting, editing, and executing novel projects with surgical precision. This vault is not just storage—it’s a **literary operating table**.
 
-within the project the following structure will be presented:
+---
+## Structure
+- `_Templates/`: **Sterile, reusable frameworks** for:
+  - Characters (with mandatory fields: *Motivation, Lies, Wounds*).
+  - Chapters (with *Goal, Conflict, Disaster* headers).
+  - Lore (tagged by #worldbuilding, #rules, #history).
 
-guide.html
-  this file will have links to subfolders and directories as well as a brief synopsis
-/refs/
-  this folder contains reference imagery for characters locations and concepts
-/chars/
-  this folder contains character information
+- `[Novel_Name]/`: **One folder per project**, structured as:
+  - `Characters/`: *No flat profiles allowed*. Each must include:
+    - **Subtextual arsenal** (what they *never* say).
+    - **Contradictions** (e.g., "Kind but leaves tea bags in the sink").
+  - `Chapters/`: Drafts *and* **structural audits** (see `Chapter_Audit.md` template).
+  - `Lore/`: **Only what’s necessary**. If it doesn’t affect the plot, it’s clutter.
+  - `Plots/`: **No "vibes" outlines**. Every arc must answer: *What does the protagonist lose?*
 
-  /cast.html
-    this file contains links to each character subpage, a brief description, and the relationship web
+---
+## Workflow
+1. **Bleed, then bandage**:
+   - Draft freely in `Chapters/`, but **tag ruthlessly** (#vomit-draft, #needs-knife).
+   - Move to `Editing/` *only* after structural integrity is confirmed.
 
-  /$CHARNAME.html
-    each character has their own document to detail information. these are broken into several sections: bio, motivations, relationships, secrets, timeline
+2. **Link like a paranoid scholar**:
+   - `[[Character: Alice|her silence in Chapter 2]]` > "See Alice’s profile."
+   - **Unlinked notes are orphaned ideas**. Adopt or euthanize them.
 
-/locations/
-  this folder contains detailed information on world locations following an organized hierarchy.
+3. **Tags as triage**:
+   - #draft (raw), #outline (skeletal), #final (lie—nothing is ever final).
+   - #subtext-fail, #trope-alert, #darwin-award (for plot holes).
 
-  /map.html
-    this file contains charts and brief descriptions of locations that need to be tracked.
+4. **Version Control**: Git *or* **nightly backups to `Archives/`**. Losing work is amateur.
 
-  /$PlANE/$REGION/$SUBREGION/$LOCALE.html
-    each locale should have a reference doc following the above layout. not all modifiers qre needed, but it helps to be able to quickly create relational maps.
+---
+## The Vane Method™
+### For Sub-Agents (or Your Future Self)
+Spawn agents with **clear, brutal mandates**:
+- **Research**: "Find me 3 historical examples of [theme] that end in betrayal. Cite sources."
+- **Writing**: "Draft this scene in **only dialogue**. No stage directions. Make me hate at least one character."
+- **Editing**: "Audit this chapter for **filter words** and **uneven power dynamics**. Return a redlined version."
 
-  /plot/
-  this folder contains the plot information organized in various subfiles
+*Example:*
+> `@agent Rewrite [[Chapter 3]]’s climax using **only the 5 senses**. No internal monologue. Due: 1 hour.`
 
-  timeline.html
-    this document contains a reading timeline of story events. note that it is chronological from the readers perspective, not the characters.
+---
+## Rules
+1. **No "nice" notes**: If a file hasn’t been updated in 30 days, **archive it or delete it**.
+2. **Templates are law**: Customize them, but **never skip fields**.
+3. **The "So What?" Test**: Every lore note must pass: *How does this make the protagonist’s life harder?*
+4. **Backlinks > Folders**: If you can’t `[[link]]` it, it doesn’t exist.
 
-  script.md
-    this document contains the actual prose in its most raw format. no chapter delineation or editing.
-
-  /scenes/$SCENE.html
-    this folder contains vignette scenes that will take place during the story but are not ordered chronologically
-
-  /chapters/#.html
-    this folder contains numbered chapters ready to be released onto sharing platforms (royalroad, reddit, literotica, etc), each platform should be tagged after the chapter number to allow for changes to formatting requirements. 
-
-reddit.md
-  contains header/footer snippets with reddit navigation, as well as a linked reddit chapterlist 
-
-royalroad.md
-  contains royal road specific authors notes and announcements.
-
-
-##embedding markdown in html
-https://www.makeuseof.com/md-block-render-markdown-web-page/
+---
+**Final Note:**
+This vault is a **collaboration**, not a solo project. I will **edit, reorganize, and critique** its contents. If you want a museum, use a different folder.
