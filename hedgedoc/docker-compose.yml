@@ -1,0 +1,34 @@
+services:
+  database:
+    image: postgres:16-alpine
+    restart: unless-stopped
+    environment:
+      POSTGRES_USER: hedgedoc
+      POSTGRES_PASSWORD: hedgedoc_secret
+      POSTGRES_DB: hedgedoc
+    volumes:
+      - hedgedoc_db:/var/lib/postgresql/data
+
+  hedgedoc:
+    image: quay.io/hedgedoc/hedgedoc:1.10.0-alpine
+    restart: unless-stopped
+    ports:
+      - "3001:3000"
+    environment:
+      CMD_DB_URL: postgres://hedgedoc:hedgedoc_secret@database:5432/hedgedoc
+      CMD_DOMAIN: localhost:3001
+      CMD_PROTOCOL_USESSL: "false"
+      CMD_ALLOW_ANONYMOUS: "true"
+      CMD_ALLOW_ANONYMOUS_EDITS: "true"
+      CMD_DEFAULT_PERMISSION: "freely"
+      CMD_SESSION_SECRET: "writing-room-hedgedoc-secret-change-me"
+      CMD_IMAGE_UPLOAD_TYPE: "filesystem"
+      CMD_UPLOADS_PATH: /uploads
+    volumes:
+      - hedgedoc_uploads:/uploads
+    depends_on:
+      - database
+
+volumes:
+  hedgedoc_db:
+  hedgedoc_uploads:

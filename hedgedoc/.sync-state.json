@@ -1,0 +1,506 @@
+{
+  "notes": {
+    "a-cage-of-thorns-story-pitch": {
+      "file": "A Cage Of Thorns/Story Pitch.md",
+      "shortid": "24313353ad",
+      "last_push": 1776617683.417392
+    },
+    "the-loomworks-readme": {
+      "file": "The Loomworks/README.md",
+      "shortid": "ca2410fff5",
+      "last_push": 1776617690.7976758
+    },
+    "monster-girl-sanctuary-story-pitch": {
+      "file": "Monster Girl Sanctuary/Story Pitch.md",
+      "shortid": "4cb16fac23",
+      "last_push": 1776617689.1015866
+    },
+    "a-cage-of-thorns-characters-elara": {
+      "file": "A Cage Of Thorns/Characters/Elara.md",
+      "shortid": "90b43c7a31",
+      "created": 1776617681.6935525,
+      "last_push": 1776617681.6935527
+    },
+    "a-cage-of-thorns-characters-princess-elara": {
+      "file": "A Cage Of Thorns/Characters/Princess Elara.md",
+      "shortid": "178ec99cd2",
+      "created": 1776617681.8511527,
+      "last_push": 1776617681.8511531
+    },
+    "a-cage-of-thorns-characters-princip-dain": {
+      "file": "A Cage Of Thorns/Characters/Princip Dain.md",
+      "shortid": "ab9b8c9f58",
+      "created": 1776617681.9878573,
+      "last_push": 1776617681.9878576
+    },
+    "a-cage-of-thorns-characters-valerius": {
+      "file": "A Cage Of Thorns/Characters/Valerius.md",
+      "shortid": "8db1569f0b",
+      "created": 1776617682.122788,
+      "last_push": 1776617682.1227882
+    },
+    "a-cage-of-thorns-homework": {
+      "file": "A Cage Of Thorns/Homework.md",
+      "shortid": "b9aa963b54",
+      "created": 1776617682.262941,
+      "last_push": 1776617682.2629411
+    },
+    "a-cage-of-thorns-lore-thorn-magic": {
+      "file": "A Cage Of Thorns/Lore/Thorn Magic.md",
+      "shortid": "e851a03591",
+      "created": 1776617682.409139,
+      "last_push": 1776617682.4091392
+    },
+    "a-cage-of-thorns-lore-unseelie-court-rules": {
+      "file": "A Cage Of Thorns/Lore/Unseelie Court Rules.md",
+      "shortid": "675582ac9b",
+      "created": 1776617682.5468028,
+      "last_push": 1776617682.546803
+    },
+    "a-cage-of-thorns-plots-unseelie-influence": {
+      "file": "A Cage Of Thorns/Plots/Unseelie Influence.md",
+      "shortid": "cfad950f6c",
+      "created": 1776617682.7004678,
+      "last_push": 1776617682.7004678
+    },
+    "a-cage-of-thorns-readme": {
+      "file": "A Cage Of Thorns/README.md",
+      "shortid": "2a5411bcf8",
+      "created": 1776617682.83041,
+      "last_push": 1776617682.8304102
+    },
+    "a-cage-of-thorns-scenes-morning-after": {
+      "file": "A Cage Of Thorns/Scenes/Morning After.md",
+      "shortid": "be09fb18c3",
+      "created": 1776617682.993365,
+      "last_push": 1776617682.9933653
+    },
+    "a-cage-of-thorns-scenes-wedding-night": {
+      "file": "A Cage Of Thorns/Scenes/Wedding Night.md",
+      "shortid": "9ac4fccd8a",
+      "created": 1776617683.1576328,
+      "last_push": 1776617683.157633
+    },
+    "a-cage-of-thorns-story-hook": {
+      "file": "A Cage Of Thorns/Story Hook.md",
+      "shortid": "bc08dcbd86",
+      "created": 1776617683.2998734,
+      "last_push": 1776617683.2998736
+    },
+    "cafe-confections-characters-cara": {
+      "file": "Cafe Confections/Characters/Cara.md",
+      "shortid": "2e13c4e352",
+      "created": 1776617683.5552533,
+      "last_push": 1776617683.5552535
+    },
+    "cafe-confections-characters-coco": {
+      "file": "Cafe Confections/Characters/Coco.md",
+      "shortid": "878233ef19",
+      "created": 1776617683.6815457,
+      "last_push": 1776617683.681546
+    },
+    "cafe-confections-characters-custard": {
+      "file": "Cafe Confections/Characters/Custard.md",
+      "shortid": "36182e53b0",
+      "created": 1776617683.8185234,
+      "last_push": 1776617683.8185236
+    },
+    "cafe-confections-characters-david": {
+      "file": "Cafe Confections/Characters/David.md",
+      "shortid": "6554188cb1",
+      "created": 1776617683.957628,
+      "last_push": 1776617683.9576283
+    },
+    "cafe-confections-characters-mint": {
+      "file": "Cafe Confections/Characters/Mint.md",
+      "shortid": "a6c1579c77",
+      "created": 1776617684.094386,
+      "last_push": 1776617684.0943863
+    },
+    "cafe-confections-draft-0": {
+      "file": "Cafe Confections/Draft 0.md",
+      "shortid": "66b32c08d2",
+      "created": 1776617684.233975,
+      "last_push": 1776617684.2339754
+    },
+    "cafe-confections-lorebook": {
+      "file": "Cafe Confections/LOREBOOK.md",
+      "shortid": "e9d6e22857",
+      "created": 1776617684.3696623,
+      "last_push": 1776617684.3696625
+    },
+    "cafe-confections-lore-buffet-door": {
+      "file": "Cafe Confections/Lore/Buffet_Door.md",
+      "shortid": "45945f951a",
+      "created": 1776617684.5041935,
+      "last_push": 1776617684.5041938
+    },
+    "cafe-confections-lore-cafe-operations": {
+      "file": "Cafe Confections/Lore/Cafe_Operations.md",
+      "shortid": "c7f3cf566e",
+      "created": 1776617684.6474345,
+      "last_push": 1776617684.6474347
+    },
+    "cafe-confections-lore-hostess-life": {
+      "file": "Cafe Confections/Lore/Hostess_Life.md",
+      "shortid": "8cac9f6f72",
+      "created": 1776617684.7808733,
+      "last_push": 1776617684.7808735
+    },
+    "cafe-confections-lore-underground-tokyo": {
+      "file": "Cafe Confections/Lore/Underground_Tokyo.md",
+      "shortid": "521919816c",
+      "created": 1776617684.9291964,
+      "last_push": 1776617684.9291966
+    },
+    "cafe-confections-readme": {
+      "file": "Cafe Confections/README.md",
+      "shortid": "620878aacc",
+      "created": 1776617685.0720115,
+      "last_push": 1776617685.072012
+    },
+    "cafe-confections-story-hook": {
+      "file": "Cafe Confections/Story Hook.md",
+      "shortid": "72dacc15e5",
+      "created": 1776617685.210072,
+      "last_push": 1776617685.2100723
+    },
+    "cafe-confections-story-pitch": {
+      "file": "Cafe Confections/Story Pitch.md",
+      "shortid": "460386408a",
+      "created": 1776617685.3405893,
+      "last_push": 1776617685.3405895
+    },
+    "emberandiron-chapter-1": {
+      "file": "EmberAndIron/Chapter 1.MD",
+      "shortid": "f142baac78",
+      "created": 1776617685.5135977,
+      "last_push": 1776617685.5135977
+    },
+    "emberandiron-chapter-2": {
+      "file": "EmberAndIron/Chapter 2.MD",
+      "shortid": "ae5ae35502",
+      "created": 1776617685.720278,
+      "last_push": 1776617685.7202785
+    },
+    "emberandiron-readme": {
+      "file": "EmberAndIron/README.MD",
+      "shortid": "7041b0d090",
+      "created": 1776617685.870511,
+      "last_push": 1776617685.8705113
+    },
+    "monster-girl-sanctuary-characters-agent-evelyn-walsh": {
+      "file": "Monster Girl Sanctuary/Characters/Agent Evelyn Walsh.md",
+      "shortid": "9152e344b1",
+      "created": 1776617686.0079162,
+      "last_push": 1776617686.0079162
+    },
+    "monster-girl-sanctuary-characters-agent-olivia-tiller": {
+      "file": "Monster Girl Sanctuary/Characters/Agent Olivia Tiller.md",
+      "shortid": "3de1ad4a4f",
+      "created": 1776617686.1557558,
+      "last_push": 1776617686.155756
+    },
+    "monster-girl-sanctuary-characters-alvis-anders": {
+      "file": "Monster Girl Sanctuary/Characters/Alvis Anders.md",
+      "shortid": "23561b7915",
+      "created": 1776617686.295999,
+      "last_push": 1776617686.2959993
+    },
+    "monster-girl-sanctuary-characters-kessa": {
+      "file": "Monster Girl Sanctuary/Characters/Kessa.md",
+      "shortid": "084fe34487",
+      "created": 1776617686.4384422,
+      "last_push": 1776617686.4384425
+    },
+    "monster-girl-sanctuary-characters-mrs.-vee": {
+      "file": "Monster Girl Sanctuary/Characters/Mrs. Vee.md",
+      "shortid": "a6a18eaf85",
+      "created": 1776617686.5772836,
+      "last_push": 1776617686.5772839
+    },
+    "monster-girl-sanctuary-characters-vexis": {
+      "file": "Monster Girl Sanctuary/Characters/Vexis.md",
+      "shortid": "76841165cf",
+      "created": 1776617686.7152665,
+      "last_push": 1776617686.7152667
+    },
+    "monster-girl-sanctuary-characters-whisper": {
+      "file": "Monster Girl Sanctuary/Characters/Whisper.md",
+      "shortid": "bce772f9a9",
+      "created": 1776617686.8632452,
+      "last_push": 1776617686.8632455
+    },
+    "monster-girl-sanctuary-characters-ylva": {
+      "file": "Monster Girl Sanctuary/Characters/Ylva.md",
+      "shortid": "eefb1a3641",
+      "created": 1776617687.0424752,
+      "last_push": 1776617687.0424755
+    },
+    "monster-girl-sanctuary-lorebook-export": {
+      "file": "Monster Girl Sanctuary/LOREBOOK EXPORT.md",
+      "shortid": "88933850d4",
+      "created": 1776617687.2020411,
+      "last_push": 1776617687.2020414
+    },
+    "monster-girl-sanctuary-lore-bio-magical-zones-(bmz)": {
+      "file": "Monster Girl Sanctuary/Lore/Bio-Magical Zones (BMZ).md",
+      "shortid": "bcb3f44b40",
+      "created": 1776617687.3587005,
+      "last_push": 1776617687.3587008
+    },
+    "monster-girl-sanctuary-lore-creatures-of-the-bmz": {
+      "file": "Monster Girl Sanctuary/Lore/Creatures of the BMZ.md",
+      "shortid": "c78fb97c50",
+      "created": 1776617687.5148747,
+      "last_push": 1776617687.514875
+    },
+    "monster-girl-sanctuary-lore-genre-guide": {
+      "file": "Monster Girl Sanctuary/Lore/GENRE_GUIDE.md",
+      "shortid": "d5e37dacf7",
+      "created": 1776617687.6757221,
+      "last_push": 1776617687.6757226
+    },
+    "monster-girl-sanctuary-lore-meadowbrook-town-square": {
+      "file": "Monster Girl Sanctuary/Lore/Meadowbrook Town Square.md",
+      "shortid": "0cc6b69d08",
+      "created": 1776617687.828957,
+      "last_push": 1776617687.8289576
+    },
+    "monster-girl-sanctuary-lore-meadowbrook": {
+      "file": "Monster Girl Sanctuary/Lore/Meadowbrook.md",
+      "shortid": "b7323d0fab",
+      "created": 1776617687.9852936,
+      "last_push": 1776617687.9852939
+    },
+    "monster-girl-sanctuary-lore-readme": {
+      "file": "Monster Girl Sanctuary/Lore/README.md",
+      "shortid": "68f13f00a6",
+      "created": 1776617688.1416533,
+      "last_push": 1776617688.1416535
+    },
+    "monster-girl-sanctuary-lore-style-rubric": {
+      "file": "Monster Girl Sanctuary/Lore/STYLE_RUBRIC.md",
+      "shortid": "1e5457d9f5",
+      "created": 1776617688.2987566,
+      "last_push": 1776617688.2987568
+    },
+    "monster-girl-sanctuary-lore-the-anders-farm": {
+      "file": "Monster Girl Sanctuary/Lore/The Anders Farm.md",
+      "shortid": "01ed0737ef",
+      "created": 1776617688.47336,
+      "last_push": 1776617688.4733603
+    },
+    "monster-girl-sanctuary-lore-the-community-center": {
+      "file": "Monster Girl Sanctuary/Lore/The Community Center.md",
+      "shortid": "e3d13ffb40",
+      "created": 1776617688.6311412,
+      "last_push": 1776617688.6311417
+    },
+    "monster-girl-sanctuary-lore-the-enchanted-forest": {
+      "file": "Monster Girl Sanctuary/Lore/The Enchanted Forest.md",
+      "shortid": "763184fd86",
+      "created": 1776617688.7890441,
+      "last_push": 1776617688.7890441
+    },
+    "monster-girl-sanctuary-story-hook": {
+      "file": "Monster Girl Sanctuary/Story Hook.md",
+      "shortid": "5f14568dff",
+      "created": 1776617688.9505699,
+      "last_push": 1776617688.9505703
+    },
+    "schema": {
+      "file": "SCHEMA.md",
+      "shortid": "df0ad6e438",
+      "created": 1776617689.24864,
+      "last_push": 1776617689.2486403
+    },
+    "the-loomworks-characters-callum": {
+      "file": "The Loomworks/Characters/Callum.md",
+      "shortid": "ff5500442b",
+      "created": 1776617689.4055505,
+      "last_push": 1776617689.405551
+    },
+    "the-loomworks-characters-emily": {
+      "file": "The Loomworks/Characters/Emily.md",
+      "shortid": "66427f327c",
+      "created": 1776617689.5625682,
+      "last_push": 1776617689.5625684
+    },
+    "the-loomworks-characters-rosin": {
+      "file": "The Loomworks/Characters/Rosin.md",
+      "shortid": "29c1a8e285",
+      "created": 1776617689.720071,
+      "last_push": 1776617689.7200718
+    },
+    "the-loomworks-lore-leeds-1862-factory-life": {
+      "file": "The Loomworks/Lore/Leeds_1862_Factory_Life.md",
+      "shortid": "7980302604",
+      "created": 1776617689.8756561,
+      "last_push": 1776617689.8756561
+    },
+    "the-loomworks-lore-leeds-2012-modern-life": {
+      "file": "The Loomworks/Lore/Leeds_2012_Modern_Life.md",
+      "shortid": "e4878850da",
+      "created": 1776617690.0430315,
+      "last_push": 1776617690.0430317
+    },
+    "the-loomworks-lore-loomworks-rules": {
+      "file": "The Loomworks/Lore/Loomworks Rules.md",
+      "shortid": "0e981bdd0b",
+      "created": 1776617690.1986601,
+      "last_push": 1776617690.1986604
+    },
+    "the-loomworks-lore-the-loomworks-mystery": {
+      "file": "The Loomworks/Lore/The_Loomworks_Mystery.md",
+      "shortid": "07c78157f0",
+      "created": 1776617690.3568182,
+      "last_push": 1776617690.3568184
+    },
+    "the-loomworks-lore-thread-magic": {
+      "file": "The Loomworks/Lore/Thread Magic.md",
+      "shortid": "a7d621f404",
+      "created": 1776617690.5126033,
+      "last_push": 1776617690.5126033
+    },
+    "the-loomworks-plots-plot-beginning": {
+      "file": "The Loomworks/Plots/Plot_Beginning.md",
+      "shortid": "664958fb61",
+      "created": 1776617690.6689832,
+      "last_push": 1776617690.6689835
+    },
+    "the-loomworks-scenes-first-stitch": {
+      "file": "The Loomworks/Scenes/First Stitch.md",
+      "shortid": "48f831058a",
+      "created": 1776617690.945355,
+      "last_push": 1776617690.945355
+    },
+    "the-loomworks-story-hook": {
+      "file": "The Loomworks/Story Hook.md",
+      "shortid": "5349559893",
+      "created": 1776617691.0825691,
+      "last_push": 1776617691.0825694
+    },
+    "the-loomworks-story-pitch": {
+      "file": "The Loomworks/Story Pitch.md",
+      "shortid": "e976b7a110",
+      "created": 1776617691.224121,
+      "last_push": 1776617691.2241213
+    },
+    "editor-notes-about": {
+      "file": "_editor-notes/ABOUT.md",
+      "shortid": "09d0d1f54e",
+      "created": 1776617691.3728948,
+      "last_push": 1776617691.3728948
+    },
+    "editor-notes-genre-guide": {
+      "file": "_editor-notes/GENRE_GUIDE.md",
+      "shortid": "cde8a3ebbc",
+      "created": 1776617691.5076177,
+      "last_push": 1776617691.507618
+    },
+    "editor-notes-readme": {
+      "file": "_editor-notes/README.md",
+      "shortid": "438b0ab8f0",
+      "created": 1776617691.6626039,
+      "last_push": 1776617691.662604
+    },
+    "editor-notes-style-rubric": {
+      "file": "_editor-notes/STYLE_RUBRIC.md",
+      "shortid": "a1c1169cf7",
+      "created": 1776617691.7965229,
+      "last_push": 1776617691.796523
+    },
+    "battlemaster-guide": {
+      "file": "battlemaster/guide.md",
+      "shortid": "5c0f42c480",
+      "created": 1776617691.930813,
+      "last_push": 1776617691.9308136
+    },
+    "battlemaster-plot-scraps-scraps": {
+      "file": "battlemaster/plot/scraps/scraps.md",
+      "shortid": "fc5b6500cb",
+      "created": 1776617692.0701091,
+      "last_push": 1776617692.0701094
+    },
+    "battlemaster-plot-scraps-statblock": {
+      "file": "battlemaster/plot/scraps/statblock.md",
+      "shortid": "6f26113e32",
+      "created": 1776617692.2095337,
+      "last_push": 1776617692.2095337
+    },
+    "battlemaster-plot-script": {
+      "file": "battlemaster/plot/script.md",
+      "shortid": "04122756ee",
+      "created": 1776617692.3461964,
+      "last_push": 1776617692.3461964
+    },
+    "battlemaster-reddit": {
+      "file": "battlemaster/reddit.md",
+      "shortid": "5470ffdd8c",
+      "created": 1776617692.4789116,
+      "last_push": 1776617692.4789116
+    },
+    "battlemaster-royalroad": {
+      "file": "battlemaster/royalroad.md",
+      "shortid": "aca8247efe",
+      "created": 1776617692.618604,
+      "last_push": 1776617692.6186042
+    },
+    "dungeon-lore-guide": {
+      "file": "dungeon-lore/guide.md",
+      "shortid": "619c3081fd",
+      "created": 1776617692.7657883,
+      "last_push": 1776617692.7657886
+    },
+    "dungeon-lore-plot-script": {
+      "file": "dungeon-lore/plot/script.md",
+      "shortid": "8bd7d7da31",
+      "created": 1776617692.8924174,
+      "last_push": 1776617692.892418
+    },
+    "dungeon-lore-reddit": {
+      "file": "dungeon-lore/reddit.md",
+      "shortid": "072bc3ef67",
+      "created": 1776617693.0205178,
+      "last_push": 1776617693.020518
+    },
+    "dungeon-lore-royalroad": {
+      "file": "dungeon-lore/royalroad.md",
+      "shortid": "883e8a9553",
+      "created": 1776617693.1645503,
+      "last_push": 1776617693.1645505
+    },
+    "example-plot-script": {
+      "file": "example/plot/script.md",
+      "shortid": "df66b1e8c0",
+      "created": 1776617693.3120568,
+      "last_push": 1776617693.312057
+    },
+    "example-reddit": {
+      "file": "example/reddit.md",
+      "shortid": "b5e218e0be",
+      "created": 1776617693.45243,
+      "last_push": 1776617693.4524302
+    },
+    "example-royalroad": {
+      "file": "example/royalroad.md",
+      "shortid": "3d5d492025",
+      "created": 1776617693.5788765,
+      "last_push": 1776617693.5788767
+    },
+    "index": {
+      "file": "index.md",
+      "shortid": "1bc04b5291",
+      "created": 1776617693.706888,
+      "last_push": 1776617693.7068882
+    },
+    "log": {
+      "file": "log.md",
+      "shortid": "836ff184e7",
+      "created": 1776617693.839464,
+      "last_push": 1776617693.8394642
+    }
+  },
+  "last_sync": 1776617693.8395212
+}
