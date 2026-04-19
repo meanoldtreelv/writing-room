@@ -1,23 +1,250 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title></title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Writing Room</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link href="css/theme.css" rel="stylesheet">
+  <script type="module" src="https://cdn.jsdelivr.net/npm/zero-md@3?register"></script>
 </head>
-
 <body>
-<h1>
-Story Index
-</h1>
-<br>
-<h2>
-Battlemaster
-</h2>
-Taking inspiration from Nathan Pierce's Tourneon series and the current trend of blue box LitRPGs this story follows the protagonists journey into a new world where they are partnered with sentiant weapons bound to the spirits of those who died with unfinished business. Did i mention there were monster girls? So many monster girls. 
 
+<nav class="sidebar">
+  <div class="sidebar-header">
+    <h1>📜 Writing Room</h1>
+    <p>Novel planning vault</p>
+  </div>
+  <div class="nav-section">Projects</div>
+  <div id="nav-projects"></div>
+  <div class="nav-section" style="margin-top:16px">Reference</div>
+  <a class="nav-item" href="#_editor-notes/README.md">The Vane Method</a>
+  <a class="nav-item" href="#_editor-notes/STYLE_RUBRIC.md">Style Rubric</a>
+  <a class="nav-item" href="#_editor-notes/GENRE_GUIDE.md">Genre Guide</a>
+  <a class="nav-item" href="#SCHEMA.md">Schema</a>
+  <a class="nav-item" href="#index.md">Full Index</a>
+  <a class="nav-item" href="#log.md">Changelog</a>
+</nav>
+
+<main class="main">
+  <div id="content"></div>
+</main>
+
+<script>
+const PROJECTS = [
+  {
+    name: "A Cage Of Thorns",
+    slug: "A Cage Of Thorns",
+    status: "active",
+    genre: "dark romantasy",
+    hook: "Princess Elara is sold into marriage with Princip Dain — who is not the man she was promised. Unseelie rules, thorn magic, and a pronoun war at the heart.",
+    files: [
+      { name: "README", path: "A Cage Of Thorns/README.md" },
+      { name: "Story Hook", path: "A Cage Of Thorns/Story Hook.md" },
+      { name: "Story Pitch", path: "A Cage Of Thorns/Story Pitch.md" },
+      { name: "Homework", path: "A Cage Of Thorns/Homework.md" },
+      "divider",
+      { name: "Princess Elara", path: "A Cage Of Thorns/Characters/Princess Elara.md" },
+      { name: "Princip Dain", path: "A Cage Of Thorns/Characters/Princip Dain.md" },
+      "divider",
+      { name: "Thorn Magic", path: "A Cage Of Thorns/Lore/Thorn Magic.md" },
+      { name: "Unseelie Court Rules", path: "A Cage Of Thorns/Lore/Unseelie Court Rules.md" },
+    ]
+  },
+  {
+    name: "The Loomworks",
+    slug: "The Loomworks",
+    status: "active",
+    genre: "sci-fi",
+    hook: "Emily is thrown 100 years into the future. She meets Callum, a fiery Englishman with a penchant for brawling. What survives — your identity, or your stubbornness?",
+    files: [
+      { name: "README", path: "The Loomworks/README.md" },
+      { name: "Story Hook", path: "The Loomworks/Story Hook.md" },
+      { name: "Story Pitch", path: "The Loomworks/Story Pitch.md" },
+    ]
+  },
+  {
+    name: "Monster Girl Sanctuary",
+    slug: "Monster Girl Sanctuary",
+    status: "active",
+    genre: "harem fantasy / slice-of-life",
+    hook: "Stardew Valley meets princess raising sim. Grandpa dies, leaves you his farm. The farm is literally magical. The town integration is... unusually deep.",
+    files: [
+      { name: "Story Hook", path: "Monster Girl Sanctuary/Story Hook.md" },
+      { name: "Story Pitch", path: "Monster Girl Sanctuary/Story Pitch.md" },
+      { name: "Lore README", path: "Monster Girl Sanctuary/Lore/README.md" },
+    ]
+  },
+  {
+    name: "Cafe Confections",
+    slug: "Cafe Confections",
+    status: "dormant",
+    genre: "urban noir / adult",
+    hook: "An American in Tokyo stumbles into a café where the desserts — and the girls — are sweet. Beneath the surface: Tokyo's dark underworld.",
+    files: [
+      { name: "README", path: "Cafe Confections/README.md" },
+      { name: "Story Hook", path: "Cafe Confections/Story Hook.md" },
+      { name: "Story Pitch", path: "Cafe Confections/Story Pitch.md" },
+      { name: "LOREBOOK", path: "Cafe Confections/LOREBOOK.md" },
+      { name: "Draft 0", path: "Cafe Confections/Draft 0.md" },
+      "divider",
+      { name: "Cara", path: "Cafe Confections/Characters/Cara.md" },
+      { name: "Coco", path: "Cafe Confections/Characters/Coco.md" },
+      { name: "Custard", path: "Cafe Confections/Characters/Custard.md" },
+      { name: "David", path: "Cafe Confections/Characters/David.md" },
+      { name: "Mint", path: "Cafe Confections/Characters/Mint.md" },
+      "divider",
+      { name: "Buffet Door", path: "Cafe Confections/Lore/Buffet_Door.md" },
+      { name: "Cafe Operations", path: "Cafe Confections/Lore/Cafe_Operations.md" },
+      { name: "Hostess Life", path: "Cafe Confections/Lore/Hostess_Life.md" },
+      { name: "Underground Tokyo", path: "Cafe Confections/Lore/Underground_Tokyo.md" },
+    ]
+  },
+  {
+    name: "EmberAndIron",
+    slug: "EmberAndIron",
+    status: "seed",
+    genre: "unknown",
+    hook: "Just getting started — 2 chapters written. Minimal context.",
+    files: [
+      { name: "Chapter 1", path: "EmberAndIron/Chapter 1.MD" },
+      { name: "Chapter 2", path: "EmberAndIron/Chapter 2.MD" },
+    ]
+  },
+  {
+    name: "battlemaster",
+    slug: "battlemaster",
+    status: "dormant",
+    genre: "fantasy worldbuilding",
+    hook: "D&D-style worldbuilding with sentient weapons and monster girls. Inspired by Tourneon series and blue-box LitRPGs.",
+    files: [
+      { name: "guide", path: "battlemaster/guide.md" },
+    ]
+  },
+  {
+    name: "dungeon-lore",
+    slug: "dungeon-lore",
+    status: "dormant",
+    genre: "fantasy worldbuilding",
+    hook: "Another fantasy worldbuilding set with plane/region/subregion structure.",
+    files: []
+  },
+];
+
+// Build sidebar nav
+const navEl = document.getElementById('nav-projects');
+PROJECTS.forEach(p => {
+  const a = document.createElement('a');
+  a.className = 'nav-item';
+  a.href = `#project:${p.slug}`;
+  a.innerHTML = `${p.name} <span class="badge">${p.status}</span>`;
+  a.dataset.slug = p.slug;
+  navEl.appendChild(a);
+});
+
+// Routing
+function navigate() {
+  const hash = decodeURIComponent(location.hash.slice(1) || '');
+  const content = document.getElementById('content');
+
+  // Update active nav
+  document.querySelectorAll('.nav-item').forEach(el => el.classList.remove('active'));
+
+  if (!hash) {
+    renderLanding(content);
+  } else if (hash.startsWith('project:')) {
+    const slug = hash.slice(8);
+    const project = PROJECTS.find(p => p.slug === slug);
+    if (project) {
+      renderProject(content, project);
+      document.querySelector(`.nav-item[data-slug="${slug}"]`)?.classList.add('active');
+    }
+  } else {
+    // Render a markdown file
+    renderFile(content, hash);
+    // Try to highlight nav
+    document.querySelector(`.nav-item[href="#${hash}"]`)?.classList.add('active');
+  }
+}
+
+function renderLanding(container) {
+  let html = '<h2 style="font-size:24px;font-weight:700;margin-bottom:4px;letter-spacing:-0.5px">Projects</h2>';
+  html += '<p style="font-size:14px;color:var(--text-muted);margin-bottom:24px">Select a project or browse the sidebar.</p>';
+  html += '<div class="project-list">';
+
+  PROJECTS.forEach(p => {
+    const statusClass = `status-${p.status}`;
+    html += `
+      <div class="project-card" onclick="location.hash='project:${p.slug}'">
+        <h3>${p.name}</h3>
+        <div class="meta">
+          <span class="status-badge ${statusClass}">${p.status}</span>
+          ${p.genre}
+        </div>
+        <div class="hook">${p.hook}</div>
+      </div>`;
+  });
+
+  html += '</div>';
+  container.innerHTML = html;
+}
+
+function renderProject(container, project) {
+  const statusClass = `status-${project.status}`;
+  let html = `
+    <div class="breadcrumb"><a onclick="location.hash=''">Projects</a> / ${project.name}</div>
+    <h2 style="font-size:22px;font-weight:700;margin-bottom:4px;letter-spacing:-0.3px">${project.name}</h2>
+    <div class="meta" style="margin-bottom:8px">
+      <span class="status-badge ${statusClass}">${project.status}</span>
+      <span style="font-size:13px;color:var(--text-dim);margin-left:8px">${project.genre}</span>
+    </div>
+    <p style="font-size:14px;color:var(--text-muted);margin-bottom:20px">${project.hook}</p>`;
+
+  if (project.files.length > 0) {
+    html += '<div class="file-list">';
+    project.files.forEach(f => {
+      if (f === 'divider') {
+        html += '<div style="border-top:1px solid var(--border)"></div>';
+      } else {
+        html += `<div class="file-item" onclick="location.hash='${f.path}'">
+          <span class="icon">📄</span>${f.name}
+        </div>`;
+      }
+    });
+    html += '</div>';
+  }
+
+  // Auto-load the first file
+  const firstFile = project.files.find(f => f !== 'divider');
+  if (firstFile) {
+    html += `<div class="md-render"><zero-md src="${firstPath(firstFile.path)}"></zero-md></div>`;
+  }
+
+  container.innerHTML = html;
+}
+
+function firstPath(p) { return p; }
+
+function renderFile(container, path) {
+  // Determine project from path
+  const topDir = path.split('/')[0];
+  const project = PROJECTS.find(p => p.slug === topDir);
+
+  let breadcrumb = '<a onclick="location.hash=\'\'">Projects</a>';
+  if (project) {
+    breadcrumb += ` / <a onclick="location.hash='project:${project.slug}'">${project.name}</a>`;
+    document.querySelector(`.nav-item[data-slug="${project.slug}"]`)?.classList.add('active');
+  }
+  breadcrumb += ` / ${path.split('/').pop()}`;
+
+  container.innerHTML = `
+    <div class="breadcrumb">${breadcrumb}</div>
+    <zero-md src="${path}"></zero-md>`;
+}
+
+window.addEventListener('hashchange', navigate);
+navigate();
+</script>
 
 </body>
-
 </html>
