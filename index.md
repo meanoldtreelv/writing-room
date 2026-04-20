@@ -55,6 +55,14 @@
 
 ## Seed Projects
 
+### Untitled Hearthcraft Novel
+**Status:** active | **Genre:** fantasy-worldbuilding | **Files:** 22
+**Thematic Core:** Magic measured by what it feeds, not what it impresses. The quiet magic of labor vs the spectacle of power.
+**Hook:** A village girl from the forgotten northern forest — where magic is drawing circles in dirt and humming your grandmother's songs — is sent to Westmark College, where mages summon shimmering multi-ring circles and channel power through precise verbal incantations, and discovers that her "primitive" single-circle casting isn't weak. It's the original. And the empire's entire magical doctrine was built to bury it.
+**Key Elements:** Circle-based magic (chantbound vs willed), Westmark College (military-academic), dual romance threads (M/F + F/F), Greywash flood crisis + Saltwind Confederation aid, sentient forest (Grandmother), systemic antagonist
+**Key Characters:** Brin (protagonist), Lord Caius Edrath (mirror), Lady Lira Thalmark (bastard), Maren Selt (professor)
+**Entry Points:** `README.md`, `Story Hook.md`, `Story Pitch.md`, `Plots/Story Structure.md`, `Lore/Village Overview.md`, `Lore/World Building.md`
+
 ### EmberAndIron
 **Status:** seed | **Genre:** [unknown] | **Files:** 3
 **Thematic Core:** [not yet decoded]
@@ -83,5 +91,6 @@
 ## System Notes
 
 - **Git repo:** Active. Remote at `https://github.com/meanoldtreelv/writing-room`
+- **Hearthcraft Novel seeded (2026-04-19):** Full project structure — 6 movements, 4 characters, magic system, world-building framework. Name TBD. House names TBD. Geography TBD.
 - **Duplicate audit (2026-04-19):** Cafe Confections reduced from 104 → 14 files. 60 recursive duplicates removed. 30 variant files archived.
 - **aCoT drafts:** Early drafts from `aCoT/` archived into `A Cage Of Thorns/_archive/`
